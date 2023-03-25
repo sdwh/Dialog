@@ -1,0 +1,36 @@
+.conversation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .message {
+    margin-bottom: 18px;
+  }
+  
+  .message-content {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 75%;
+  }
+  
+  .received {
+    background-color: #fff;
+  }
+  
+  .sent {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .sent .message-content {
+    background-color: #007bff;
+    color: #fff;
+    text-align: right;
+  }
